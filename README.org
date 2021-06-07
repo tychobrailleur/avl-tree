@@ -1,0 +1,8 @@
+Clojure implementation of an [[https://en.wikipedia.org/wiki/AVL_tree][AVL tree]].  This is for study purposes only, for an efficient implementation, use Clojure's [[https://github.com/clojure/data.avl][data.avl]].
+
+
+* License
+
+Copyright © 2021 Sébastien Le Callonnec
+
+This project is licensed under the GNU General Public License v3.0.
