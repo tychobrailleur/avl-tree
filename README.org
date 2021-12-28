@@ -1,5 +1,8 @@
 Clojure implementation of an [[https://en.wikipedia.org/wiki/AVL_tree][AVL tree]].  This is for study purposes only, for an efficient implementation, use Clojure's [[https://github.com/clojure/data.avl][data.avl]].
 
+An AVL tree is a self-balancing binary search tree where the balance factor is always at most 1.  If an operation causes the balance factor to be greater than 1, the tree is re-balanced using rotations.
+
+AVL trees are useful to maintain a sorted set of entries, especially if the set does not change frequently – thus minimising the amount of re-balancing required.
 
 * License
 
